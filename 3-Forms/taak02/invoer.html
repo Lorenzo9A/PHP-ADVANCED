@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="style.css"></script>
+
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Form</h3>
+    <form action="mijngegevens.php" method="POST">
+        Voornaam: <input type="text" name="naam">
+        Geslacht:
+        <input type="radio" name="man" value="man">
+        <label for="man">man</label>
+        <input type="radio" name="vrouw" value="vrouw">
+        <label for="vrouw">vrouw</label><br><br>
+        Achternaam: <input type="text" name="Achternaam"><br><br>
+        Klas: <input type="text" name="klas">
+        <label for="kleur">Lievelings kleur</label>
+        <select name="kleur" id="kleur">
+            <option value="red">rood</option>
+            <option value="blue">blauw</option>
+            <option value="yellow">geel</option>
+            <option value="purple">paars</option>
+            <option value="green">groen</option>
+        </select>
+        <br><br>
+        Leeftijd: <input type="number" name="leeftijd"><br><br>
+        Adres: <input type="text" name="adres"><br><br>
+        plaatsnaam: <input type="text" name="plaatsnaam"><br><br>
+        Favoriete muziekBand <input type="text" name="muziekBand"><br><br>
+        <input type="submit" value="verzend">
+    </form>
+</body>
+
+</html>
