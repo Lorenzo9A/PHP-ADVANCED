@@ -1,11 +1,15 @@
 <html>
 <body>
 
- <?php echo $_POST["naam"]; <br>
+ <?php echo $_POST["naam"];
   echo $_POST["Achternaam"];
+  echo"<br>";
   echo $_POST["klas"]; 
- echo $_POST["leeftijd"]; 
+  echo"<br>";
+ echo $_POST["leeftijd"];
+ echo"<br>"; 
  echo $_POST["adres"];
+ echo"<br>";
   echo $_POST["plaatsnaam"];
   ?>
 </body>
