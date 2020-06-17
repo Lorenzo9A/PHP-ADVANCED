@@ -4,8 +4,8 @@
 <body>
 <h3>Form</h3>
     <form action="advanced-2.php" method="POST">
-        TabelrandDikte px: <input type="text" name="tabelRand"><br><br>
-        cel-padding px: <input type="text" name="Achternaam"><br><br>
+        TabelrandDikte px: <input type="text" name="border"><br><br>
+        cel-padding px: <input type="text" name="padding"><br><br>
         <label for="kleur">Achtergrond kleur:</label>
         <select name="kleur" id="kleur">
         <?php 
