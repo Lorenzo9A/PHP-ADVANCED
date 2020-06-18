@@ -27,11 +27,10 @@
     "Klas"       => " 9A"
   );
 
-  function maakRij($mijzelf, $table = true)
+  function maakRij($mijzelf)
   {
     foreach ($mijzelf as $ik => $gegevens) {
-      echo "<tr>", "<td>" . $ik .   $gegevens .  "<tr>", "</td>";
-      echo "<br>";
+      echo "<tr> <td>  $ik  </td> <td>  $gegevens </td> </tr>";
     }
   }
   ?>
@@ -41,10 +40,8 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <?php maakRij($mijzelf);
-        ?>
-      </tr>
+      <?php maakRij($mijzelf);
+      ?>
     </tbody>
   </table>
 
